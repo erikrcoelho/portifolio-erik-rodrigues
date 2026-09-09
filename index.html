@@ -5,10 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio Erik Rodrigues Coelho</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="imagens/deadpoollogo.png" type="image/x-icon">
 </head>
-<body>
+<body class="escuro">
     <header>
-        
+        <nav id="menu">
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Formações</a></li>
+                <li><a href="">Skills</a></li>
+                <li><a href="">Projetos</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="ficha">
+                <img src="imagens/Capura de tela 2026-08-09 145947.png" alt="">
+                <h1>Erik Rodrigues Coelho</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptate illum inventore architecto repudiandae, quo alias quia similique consequuntur quasi tempora eaque placeat ipsum consequatur aliquam facilis dolores quas fugit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque omnis corrupti, quisquam dolorem eius ad beatae animi. Soluta repudiandae et incidunt hic doloribus totam, necessitatibus fugiat nemo quia nostrum debitis.</p>
+                <div id="fcontato">
+                    <form action="enviar.php">
+                        <label for="tel">Telefone</label>
+                        <input type="tel" name="tel" id="tel">
+
+                        <label for="mail">Email</label>
+                        <input type="email" name="mail" id="mail">
+
+                        <label for="txt">Digite sua mensagem</label>
+                        <input type="text" name="txt" id="txt">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </form>
+                </div>
+                <div id="social">
+          
+                </div>
+            </section>
+
+            <section id="principal">
+                <article id="formacao"> <!--Inicio formacao-->
+                    <h2>Formações</h2>
+                    <div id="formacao-conteiner">
+                        <div class="curso">
+                            <h3>Curso em Video</h3>
+                            <p>HTML5 e CSS3</p>
+                            <p>2025-2026</p>
+                        </div>
+                        <div class="curso">
+                            <h3>Curso em Video</h3>
+                            <p>JavaScript</p>
+                            <p>2026-2026</p>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article id="skills"> <!--Inicio skills-->
+                    <h2>Skills</h2>
+                    <div id="skill-conteiner">
+                        <div class="item"></div>
+                        <div class="item"></div>
+                    </div>
+                </article>
+                
+
+            
+                <article id="projetos">
+                    <h2>Projetos</h2>
+                    <div id="projeto-container">
+                        <div class="projeto"></div>
+                        <div class="projeto"></div>
+                        <div class="projeto"></div>
+                        <div class="projeto"></div>
+                    </div>
+                </article>
+            </section>
+
+
+
+            <footer></footer>
+
+            
+        </main>
     </header>
 </body>
 </html>

@@ -4,6 +4,34 @@
     margin: 0px;
     box-sizing: border-box;
 }
+:root{
+    --fundo-principal:#d8d8d8;
+    --fundo-secao:white;
+}
 html{
     font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: var(--fundo-principal);
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--fundo-secao);
+    padding: 10px;
+    
+}
+nav#menu ul{
+    display: flex;
+    list-style-type:none;
+    gap: 40px;
+   
+    
+}
+nav#menu a{
+   text-decoration: none;
+}
+nav#menu li.link{
+    display: flex;
+    align-items: flex-end;
 }

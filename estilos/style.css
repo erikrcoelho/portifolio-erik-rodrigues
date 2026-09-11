@@ -51,7 +51,7 @@ nav#menu a.link{
 
 @media screen and (min-width:680px){
    #menu{
-    display: none;
+    
    }
 
     #menu > ul > li:nth-child(1) > a > svg{

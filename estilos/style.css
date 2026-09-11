@@ -6,7 +6,8 @@
 }
 :root{
     --fundo-principal:#d8d8d8;
-    --fundo-secao:white;
+    --fundo-secao:rgb(252, 252, 252);
+    --fundo-itens:rgb(54, 54, 54);
 }
 html{
     font-family: Arial, Helvetica, sans-serif;
@@ -16,22 +17,46 @@ body{
 }
 header{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
     background-color: var(--fundo-secao);
     padding: 10px;
-    
+    position: relative;
+    height: 4em;
+}
+nav#menu{
+   width: 100%;
+   padding: 5px;
 }
 nav#menu ul{
     display: flex;
-    list-style-type:none;
-    gap: 40px;
-   
+    list-style-type: none;
+    gap: 10px;
+
     
 }
 nav#menu a{
+    color: white;
    text-decoration: none;
+   background-color: var(--fundo-itens);
+   padding: 10px;
+   border-radius: 5px;
 }
-nav#menu li.link{
-    display: flex;
-    align-items: flex-end;
+nav#menu ul li:nth-child(6){
+    position: absolute;
+    right: 3px;
 }
+nav#menu a.link{
+    border-radius: 20px;
+}
+
+@media screen and (min-width:680px){
+   #menu{
+    display: none;
+   }
+
+    #menu > ul > li:nth-child(1) > a > svg{
+        display:none;
+        
+    }
+}
+

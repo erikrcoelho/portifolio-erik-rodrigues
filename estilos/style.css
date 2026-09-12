@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 :root{
-    --fundo-principal:#d8d8d8;
-    --fundo-secao:rgb(252, 252, 252);
+    --fundo-principal:#fdfdfd;
+    --fundo-secao:rgb(202, 202, 202);
     --fundo-itens:rgb(54, 54, 54);
 }
 html{
@@ -20,8 +20,8 @@ header{
     align-items: center;
     background-color: var(--fundo-secao);
     padding: 10px;
-    position: relative;
     height: 4em;
+    position:relative;
 }
 nav#menu{
    width: 100%;
@@ -31,8 +31,6 @@ nav#menu ul{
     display: flex;
     list-style-type: none;
     gap: 10px;
-
-    
 }
 nav#menu a{
     color: white;
@@ -49,14 +47,20 @@ nav#menu a.link{
     border-radius: 20px;
 }
 
-@media screen and (min-width:680px){
-   #menu{
-    
-   }
+section#ficha{
+   background-color: var(--fundo-secao);
+   padding: 10px;
+}
 
-    #menu > ul > li:nth-child(1) > a > svg{
-        display:none;
-        
+
+
+
+
+@media screen and (min-width:620px) {
+    #menu > ul{
+        justify-content: center;
+        margin-left: 20em;
     }
 }
+
 

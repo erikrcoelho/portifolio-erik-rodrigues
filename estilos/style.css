@@ -9,6 +9,7 @@
     --fundo-secao:rgb(202, 202, 202);
     --fundo-itens:rgb(54, 54, 54);
     --borda: black;
+    --botao: rgb(192, 192, 192);
 }
 html{
     font-family: Arial, Helvetica, sans-serif;
@@ -49,6 +50,7 @@ nav#menu a.link{
 }
 main{
     display: grid;
+    padding: 10px;
 }
 section#ficha{
    background-color: var(--fundo-secao);
@@ -97,8 +99,22 @@ div#fcontato form {
 }
 div#fcontato form input{
     padding: 5px;
+    border-radius: 5px;
+    border-style: none;
 }
-
+#tel,#mail{
+    border-radius: 5px;
+    border-style: none;
+}
+#fcontato > form > input[type=submit]:nth-child(11):hover{
+    background-color: rgb(192, 192, 192);
+    cursor: pointer;
+    
+}
+#fcontato > form > input[type=reset]:nth-child(12):hover{
+    background-color: rgb(189, 189, 189);
+    cursor: pointer;
+}
 
 
 @media screen and (min-width:620px) {
@@ -107,7 +123,7 @@ div#fcontato form input{
         margin-left: 20em;
     }
     section#ficha{
-        display: grid;
+        
         height: 600px ;
         width: 600px;
     }

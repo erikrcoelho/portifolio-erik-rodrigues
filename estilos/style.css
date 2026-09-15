@@ -8,6 +8,7 @@
     --fundo-principal:#fdfdfd;
     --fundo-secao:rgb(202, 202, 202);
     --fundo-itens:rgb(54, 54, 54);
+    --borda: black;
 }
 html{
     font-family: Arial, Helvetica, sans-serif;
@@ -18,7 +19,7 @@ body{
 header{
     display: flex;
     align-items: center;
-    background-color: var(--fundo-secao);
+    background-color: gray;
     padding: 10px;
     height: 4em;
     position:relative;
@@ -46,13 +47,57 @@ nav#menu ul li:nth-child(6){
 nav#menu a.link{
     border-radius: 20px;
 }
-
+main{
+    display: grid;
+}
 section#ficha{
    background-color: var(--fundo-secao);
-   padding: 10px;
+   
+   border-radius: 5px;
+
+   margin: auto;
+   
 }
-
-
+section#ficha h1{
+    text-align: center;
+    padding: 5px;
+}
+section#ficha p{
+    text-align: justify;
+    padding: 10px;
+}
+img.foto{
+    border-radius: 500px;
+    border: solid 5px var(--borda);
+    width: 200px;
+    display: flex;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+div#fcontato{
+    border: 2px solid var(--borda);
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+}
+div#fcontato h2{
+    padding: 17px;
+    text-align: center;
+   
+}
+div#fcontato form {
+    padding: 5px;
+    text-align: center;
+   
+}
+div#fcontato form input{
+    padding: 5px;
+}
 
 
 
@@ -60,6 +105,11 @@ section#ficha{
     #menu > ul{
         justify-content: center;
         margin-left: 20em;
+    }
+    section#ficha{
+        display: grid;
+        height: 600px ;
+        width: 600px;
     }
 }
 

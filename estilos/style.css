@@ -5,10 +5,11 @@
     box-sizing: border-box;
 }
 :root{
-    --fundo-principal:#f79a9a8c;
-    --fundo-secao:rgb(155, 155, 155);
+    --fundo-principal:#DCF2FF;
+    --fundo-secao:#83aec7;
     --fundo-itens:rgb(54, 54, 54);
-    --borda: black;
+    --texto:#DCF2FF;
+    --borda: #072333;
     --botao: rgb(192, 192, 192);
 }
 html{
@@ -20,7 +21,7 @@ body{
 header{
     display: flex;
     align-items: center;
-    background-color: gray;
+    background-color: var(--fundo-secao);
     padding: 10px;
     height: 4em;
     position:relative;
@@ -116,6 +117,7 @@ section#principal{
 }
 article{
     background-color: var(--fundo-secao);
+    border-radius: 5px;
 }
 article#formacao{
     height: 200px;
@@ -131,6 +133,12 @@ article#projetos{
     padding: 20px;
     margin-bottom: 20px;
     height: 50em;
+}
+footer{
+    background-color: var(--fundo-secao);
+    text-align: center;
+    padding: 20px;
+    
 }
 @media screen and (min-width:620px) {
     #menu > ul{

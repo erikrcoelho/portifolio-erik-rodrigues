@@ -6,11 +6,11 @@
 }
 :root{
     --fundo-principal:#DCF2FF;
-    --fundo-secao:#83aec7;
-    --fundo-itens:rgb(54, 54, 54);
+    --fundo-secao:#97B9CC;
+    --fundo-itens:#072333;
     --texto:#DCF2FF;
     --borda: #072333;
-    --botao: rgb(192, 192, 192);
+    
 }
 html{
     font-family: Arial, Helvetica, sans-serif;
@@ -36,7 +36,6 @@ nav#menu ul{
     gap: 10px;
 }
 nav#menu a{
-    color: white;
    text-decoration: none;
    background-color: var(--fundo-itens);
    padding: 10px;

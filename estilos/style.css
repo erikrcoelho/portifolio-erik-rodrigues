@@ -136,6 +136,9 @@ article#skills{
     padding: 20px;
     margin-bottom: 20px;
 }
+div.box{
+    display: grid;
+}
 article#projetos{
     padding: 20px;
     margin-bottom: 20px;
@@ -158,24 +161,7 @@ footer{
         
     }
 }
-div#circle{
-position: relative;
-}
-div#circle img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    border: 2px solid white;
-    
-}
-div#circle h3{
-    
-}
-#circle > div{
-    color: white;
-    position: absolute;
-    bottom: 58px;
-    left: 54px;
-    transform: translate(-50%, -50%);
-}
+
+
+
 

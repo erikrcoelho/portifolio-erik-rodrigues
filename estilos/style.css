@@ -132,12 +132,10 @@ div.curso{
     padding: 5px;
 }
 article#skills{
-    height: 200px;
+    height: 500px;
     padding: 20px;
     margin-bottom: 20px;
-}
-div.box{
-    display: grid;
+    display: flex;
 }
 article#projetos{
     padding: 20px;
@@ -160,6 +158,31 @@ footer{
         width: 600px;
         
     }
+}
+article#skills{
+    display: flex;
+    flex-direction: column;
+}
+#skills .icones ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 15px;
+}
+#skills .icones li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: 16px;
+    transition: transform 0.2s ease;
+}
+
+#skills .icones img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+#projeto-container{
+    background-color: var(--fundo-div);
 }
 
 

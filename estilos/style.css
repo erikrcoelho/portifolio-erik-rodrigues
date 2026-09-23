@@ -170,10 +170,14 @@ article#skills{
 }
 #skills .icones li {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;    
-    padding: 16px;
+    padding: 20px;
     transition: transform 0.2s ease;
+    background-color: var(--borda);
+    color: white;
+    width: 120px;
+    border-radius: 20px;
 }
 
 #skills .icones img {
@@ -185,6 +189,10 @@ article#skills{
     background-color: var(--fundo-div);
 }
 
-
-
+#skills > div > div > div > h3{
+    padding: 10px;
+}
+#skills > div > h3{
+    padding: 10px;
+}
 

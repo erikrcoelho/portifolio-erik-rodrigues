@@ -120,7 +120,7 @@ article{
     border-radius: 5px;
 }
 article#formacao{
-    height: 200px;
+    height: 300px;
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -194,5 +194,8 @@ article#skills{
 }
 #skills > div > h3{
     padding: 10px;
+}
+div.projeto img{
+    max-height: 200px;
 }
 

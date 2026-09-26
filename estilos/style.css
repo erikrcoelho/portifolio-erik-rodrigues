@@ -140,7 +140,7 @@ article#skills{
 article#projetos{
     padding: 20px;
     margin-bottom: 20px;
-    height: 50em;
+    height: 80em;
 }
 footer{
     background-color: var(--fundo-secao);
@@ -187,6 +187,7 @@ article#skills{
 }
 #projeto-container{
     background-color: var(--fundo-div);
+    border-radius: 5px;
 }
 
 #skills > div > div > div > h3{
@@ -195,7 +196,14 @@ article#skills{
 #skills > div > h3{
     padding: 10px;
 }
+div.projeto{
+    
+}
 div.projeto img{
     max-height: 200px;
+    padding: 10px;
+    border-radius: 20px;
 }
-
+div.projeto-info{
+    padding: 10px;
+}

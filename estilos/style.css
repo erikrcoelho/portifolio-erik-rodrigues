@@ -158,6 +158,10 @@ footer{
         width: 600px;
         
     }
+    div.projeto{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
 }
 article#skills{
     display: flex;
@@ -195,9 +199,6 @@ article#skills{
 }
 #skills > div > h3{
     padding: 10px;
-}
-div.projeto{
-    
 }
 div.projeto img{
     max-height: 200px;

@@ -28,7 +28,7 @@ header{
     background-color: var(--fundo-secao);
     padding: 10px;
     height: 4em;
-    position:relative;
+    position: relative;
 }
 nav#menu{
    width: 100%;
@@ -55,6 +55,7 @@ nav#menu a.link{
 main{
     display: grid;
     padding: 8px;
+    
 }
 section#ficha{
    background-color: var(--fundo-secao);
@@ -128,9 +129,6 @@ form input{
 #txt{
     height: 200px;
 }
-section#principal{
-    /*display: grid;*/
-}
 article{
     background-color: var(--fundo-secao);
     border-radius: 5px;
@@ -162,7 +160,6 @@ footer{
     background-color: var(--fundo-secao);
     text-align: center;
     padding: 20px;
-    
 }
 @media screen and (min-width:620px) {
     #menu > ul{
@@ -172,18 +169,15 @@ footer{
     section#ficha{
         height: 60em;
         width: 600px;
-        
     }
-    div.projeto{
-        display: grid;
-        grid-template-columns: auto auto;
-    }
+    
     details.descricao{
         width: 50em;
     }
-    section#principal{
-        grid-column: 1/2;
+    main{
+        grid-template-columns: 635px auto;
     }
+    
 }
 article#skills{
     display: flex;

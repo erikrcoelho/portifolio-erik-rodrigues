@@ -29,6 +29,7 @@ header{
     padding: 10px;
     height: 4em;
     position: relative;
+    z-index: 1;
 }
 nav#menu{
    width: 100%;
@@ -161,7 +162,7 @@ footer{
     text-align: center;
     padding: 20px;
 }
-@media screen and (min-width:620px) {
+@media screen and (min-width:768px) {
     #menu > ul{
         justify-content: center;
         margin-left: 20em;

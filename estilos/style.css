@@ -65,6 +65,7 @@ section#ficha{
    background-color: var(--fundo-secao);
    border-radius: 5px;
    margin-bottom: 10px;
+   width: 100%;
 }
 section#ficha h1{
     text-align: center;
@@ -150,7 +151,8 @@ div.curso{
     padding: 5px;
 }
 article#skills{
-    height: 500px;
+    
+    height: 35%;
     padding: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -173,6 +175,7 @@ footer{
        grid-column:-4/-3;
         height: fit-content;
         position: sticky;
+        width: 60%;
     }
     
     details.descricao{
@@ -222,7 +225,7 @@ article#skills{
 }
 
 div.projeto img{
-    width: 100%;
+    width: 80%;
     padding: 10px;
     border-radius: 20px;
 }

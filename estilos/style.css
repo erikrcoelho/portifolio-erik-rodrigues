@@ -20,13 +20,11 @@
 body{
     background-color: var(--fundo-principal);
     font-family: var(--fonte);
-
 }
 header{
     background-color: var(--borda);
     display: flex;
     align-items: center;
-   
     padding: 10px;
     height: 4em;
      position: sticky;
@@ -79,7 +77,6 @@ img.foto{
     border-radius: 500px;
     border: solid 5px var(--borda);
     width: 200px;
-    display: block;
     margin: auto;
     margin-top: 10px;
 }
@@ -159,8 +156,9 @@ article#skills{
 }
 article#projetos{
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 90%;
 }
+
 footer{
     background-color: var(--fundo-secao);
     text-align: center;
@@ -172,18 +170,21 @@ footer{
         margin-left: 20em;
     }
     section#ficha{
-       grid-column:-4/-3;
+       grid-column:1/2;
+       grid-row: 1/5;
         height: fit-content;
         position: sticky;
-        width: 60%;
+        width: 100%;
+        top: 80px;
     }
     
     details.descricao{
        max-width: 50em;
     }
     main{
-        grid-template-columns: 635px auto auto;
+        grid-template-columns: 400px 1fr;
     }
+    
     
 }
 article#skills{
